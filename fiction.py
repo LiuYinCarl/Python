@@ -50,7 +50,7 @@ class SendEmail:
     def __init__(self, title):
         self.title = title
     def send(self):
-        data_1 = ['1427518212@qq.com', 'kdmwaaphrnwpjibc', '17368080695@163.com', 'smtp.qq.com']
+        data_1 = ['1427518212@qq.com', 'xxxxxxxxxx', '17368080695@163.com', 'smtp.qq.com'] #写xxx的存放的是邮箱的客户授权码
         from_addr = data_1[0]
         password = data_1[1]
         to_addr = data_1[2]
